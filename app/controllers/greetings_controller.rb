@@ -1,5 +1,4 @@
 class GreetingsController < ApplicationController
-  
   def random
     random_greeting = Message.order('RANDOM()').first
 
